@@ -1,11 +1,12 @@
 # DIY Binary Analysis
 ## OBIN
 <img src="https://github.com/ImanHosseini/OBIN/raw/master/blog/term.png" width="500" />
-To learn how tools like **IDA** work under the hood, and learn more about binary analysis, I made **OBIN** for **O**siris **Bin**ary analysis tool which does the following:
-* Parsing the elf file and show the information in the header
-* Disassembling the sections which include program code (there is also an experimental gui with TkInter)
-* Generating the function call graph
-* Checking whether a sequence of syscalls or function calls can happen during the execution of the program
+To learn how tools like **IDA** work under the hood, and learn more about binary analysis, I made **OBIN** for **O**siris **Bin**ary analysis tool which does the following: 
++ Parsing the elf file and show the information in the header <br>
++ Disassembling the sections which include program code (there is also an experimental gui with TkInter) <br>
++ Generating the function call graph <br>
++ Checking whether a sequence of syscalls or function calls can happen during the execution of the program <br>
+
 The source of **OBIN** is available.
 
 ## Parsing the ELF
